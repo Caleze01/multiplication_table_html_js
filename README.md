@@ -1,2 +1,4 @@
 # multiplication_table_html_js
-Is a simple multiplication table using the html-js. 
+It's a simple multiplication table using the html-js. 
+the login is "Tabuada" and the senha is "Tabuada321
+you put two number and the pag will show you all the resuts before the multiplication that you asked for.
