@@ -1,19 +1,26 @@
-<meta charset="UTF-8">
-<script>
+    
     var loginCadastrado = "Tabuada";
     var senhaCadastrada = "Tabuada321";
 
-    var loginInformado = prompt("Informe seu login");
-    var senhaInformada = prompt("Informe sua senha");
-
+    
+    function informeLogin(loginInformado, senhaInformada) {
     if( loginCadastrado == loginInformado && senhaCadastrada == senhaInformada ) {
 
-        alert("Bem-vindo ao sistema " + loginInformado);
+        return(1);
+
     } else {
 
-        alert("Login inválido. Tente novamente");
+        return(0);
+    }}
+    while(true){
+    var loginInformado = prompt("Informe seu login");
+    var senhaInformada = prompt("Informe sua senha");
+    
+    x = informeLogin(loginInformado, senhaInformada);
+    if(x == 1) {
+        break;
     }
-
+    }
     function pulaLinha() {
         document.write("<br><br>");
     }
@@ -38,4 +45,4 @@
 
     }
     mostra("FIM!");
-</script>
+    
